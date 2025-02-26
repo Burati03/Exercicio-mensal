@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th, tfoot td {
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+        tfoot {
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cardápio</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Strogonoff</td>
+                <td>Prato que geralmente contém tiras de carne (bovina ou frango) cozidas em um molho cremoso à base de creme de leite, ketchup ou molho de tomate, e mostarda. Pode incluir champignons (cogumelos) e é frequentemente servido com arroz branco e batata palha.
+                <td>&euro;12.50</td>
+            </tr>
+            <tr>
+                <td>Feijoada</td>
+                <td>Prato tradicional brasileiro com feijão preto e carnes diversas.</td>
+                <td>R$25,00</td>
+            </tr>
+            <tr>
+                <td>Cheeseburger</td>
+                <td>Dois hamburger, alface, queijo, molho especial, cebola, piclese um pão com gergilin</td>
+                <td>&dollar;8.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Formas de pagamento: Dinheiro, Cartão de Crédito, Cartão de Débito</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
